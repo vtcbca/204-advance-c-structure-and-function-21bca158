@@ -1,1 +1,32 @@
-WAP to create UDF evenOdd and check numebr is even or odd.
+/*WAP to create UDF evenOdd and check numebr is even or odd.
+name:patil piyush
+date:31-03-2022*/
+
+#include<stdio.h>
+#include<conio.h>
+void ode();
+void main()
+{
+	clrscr();
+	ode();
+	getch();
+}
+void ode()
+{
+	int a;
+	printf("\n\t Enter any number:");
+	scanf("%d",&a);
+	clrscr();
+
+	if(a%2==0)
+	{
+		printf ("/n/t%d is even no",a);
+	}
+	else
+	{
+		printf("\n\t%d is odd no",a);
+	}
+}
+
+
+
